@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+}
+.heading{ font-size: 7em;
+    color: #fff;
+
+}
+p{
+    color: #fff;
+}
+.container{
+    border:dotted 5px #fff;
+    border-color: green;
+
+}
+button{
+    font-size: 2em;
+    padding: 5px;
+    width:200px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+align-items: center;
+}
