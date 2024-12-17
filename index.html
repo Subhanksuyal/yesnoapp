@@ -1,28 +1,37 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="style.css">
-    <title>PRO</title>
-    <script src="script.js"> </script>
+    <link rel="stylesheet" href="style.css">
+    <title>St@tus @pp</title>
 </head>
 <body>
-  <h1 class="heading">STATUS APP</h1>
-  <p> This App will report the status of the student</p>
-  <div class="container">
-<p id="yes" class="count">yes:0</p>
-<p id ="no"class="count">no:0</p>
-    <button onclick="yesf()">YES</button>
-<button onclick="nof()">NO</button>
+    <h1 class="heading">St@tus @pp</h1>
+    <p class="caption">This app will report the status of the students.</p>
+    <div class="container">
+        <div class="row">
+            <p id="yes" class="count">Yes: 0</p>
+            <p id="no" class="count">No: 0</p>
+        </div>
+    <div class="row">
 
-
-  </div>  
+        <input type="button" value="Yes" onclick="yesF()" >
+        <input type="button" value="No" onclick="noF()">
+    </div>
+    </div>
 </body>
-</html>
-<!--auto rename tag
-prettier
-live preview
-save typing
-rainbow brackets-->
+<script>
+    let yes = 0;
+    let no = 0;
+    function yesF(){
+        yes++;
+        document.getElementById("yes").innerHTML = "Yes: " + yes;
+    }
+    function noF(){
+        no++;
+        document.getElementById("no").innerHTML = "No: " + no;
+    }
 
+</script>
+    <script src="script.js"></script>
+</html>
